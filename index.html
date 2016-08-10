@@ -11,21 +11,43 @@
   <header>
     <div class='title'><img src='images/seinfeld.png'></div>
     <div class='subtitle'><p>The Quiz!</p></div>
+    <div class='progress'>
+      <progress max="100" value="0"></progress>
+      <p>0 / 5 questions answered </p>
+    </div>
   </header>
   <section class='main'>
     <div class='background'></div>
     <div class='content'>
-      <div class='heading'>
-        Are you master of your domain?
+      <div class='intro'>
+        <div class='heading'>
+          Are you master of your domain?
+        </div>
+        <div class='subheading'>
+          Take the quiz to find out.
+        </div>
+        <button class='start-button'>Let's Go!</button>
       </div>
-      <div class='subheading'>
-        Take the quiz to find out.
+      
+
+      <div class='question'>
+        <p>What Frank Costanza catchphrase was responsible for Lloyd Braun's nervous breakdown?</p>
+
+        <div class='choices'>
+          <input type="radio" name="answer1"> Hakuna Matata<br/>
+          <input type="radio" name="answer2"> Serenity Now<br/>
+          <input type="radio" name="answer3"> Hoochie Mama<br/>
+          <input type="radio" name="answer4"> God Love a Duck</br>
+        </div>
+
+        <button class='submit-button'>Submit</button>        
+
       </div>
 
-      <button class='start-button'>Let's Go!</button>
     </div>
   </section>
 
-  <script src="js/scripts.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+  <script src="js/script.js"></script>
 </body>
 </html>
