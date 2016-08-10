@@ -122,6 +122,11 @@ button {
   font-family: Montserrat, sans-serif;
 }
 
+.choices input[type="radio"] {
+  margin-top: -5px;
+  vertical-align: middle;
+}
+
 .submit-button {
   font-size: 2rem;
   display: block;
