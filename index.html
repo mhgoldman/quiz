@@ -13,7 +13,7 @@
     <div class='subtitle'><p>The Quiz!</p></div>
     <div class='progress'>
       <progress max="100" value="0"></progress>
-      <p>0 / 5 questions answered </p>
+      <p>0 / 5 questions</p>
     </div>
   </header>
   <section class='main'>
@@ -29,20 +29,29 @@
         <button class='start-button'>Let's Go!</button>
       </div>
       
-
       <div class='question'>
-        <p>What Frank Costanza catchphrase was responsible for Lloyd Braun's nervous breakdown?</p>
+        <p class='prompt'>Question Prompt</p>
 
         <div class='choices'>
-          <input type="radio" name="answer1"> Hakuna Matata<br/>
-          <input type="radio" name="answer2"> Serenity Now<br/>
-          <input type="radio" name="answer3"> Hoochie Mama<br/>
-          <input type="radio" name="answer4"> God Love a Duck</br>
+          <input type="radio" name="selectedAnswer" value="0"> <span class='answerText0'>Answer1</span><br/>
+          <input type="radio" name="selectedAnswer" value="1"> <span class='answerText1'>Answer2</span><br/>
+          <input type="radio" name="selectedAnswer" value="2"> <span class='answerText2'>Answer3</span><br/>
+          <input type="radio" name="selectedAnswer" value="3"> <span class='answerText3'>Answer4</span></br>
         </div>
 
         <button class='submit-button'>Submit</button>        
-
       </div>
+
+      <div class='ending'>
+        <div class='heading'>
+          Game Over
+        </div>
+        <div class='subheading'>
+          You got N correct answers!
+        </div>
+        <button class='start-button'>Play Again</button>
+      </div>
+
 
     </div>
   </section>
