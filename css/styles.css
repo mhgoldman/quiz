@@ -195,7 +195,7 @@ button {
 @media only screen and (max-width: 500px) {
   .subtitle {
     font-size: 1.5rem;
-    height: 2.5rem;
+    height: 2rem;
   }
 
   .title img {
@@ -203,7 +203,7 @@ button {
   }
 
   header {
-    height: 2.5rem;
+    height: 2rem;
   }
 
   .heading {
@@ -214,16 +214,12 @@ button {
     font-size: 1.5rem;
   }
 
-  .start-button {
-    font-size: 2rem;
-  }
-
   .question {
-    font-size: 1.5rem;
+    font-size: 1.33rem;
   }
 
   .choices {
-    font-size: 1.33rem;
+    font-size: 1.125rem;
   }
 }
 
